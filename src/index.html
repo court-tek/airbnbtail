@@ -7,6 +7,64 @@
 </head>
 <body>
   <!-- navbar -->
-  <nav class="fixed container mx-auto"></nav>
+  <nav class="fixed inset-x-0 bg-airbVerde">
+    <!-- flex container -->
+    <div class="flex items-center justify-between">
+      <!-- logo -->
+      <div class="pt-2">
+        <img src="https://raw.githubusercontent.com/court-tek/airbnbtail/main/src/img/airbnb_logo_icon_170605.png" width="32" height="32" alt="">
+      </div>
+      <!-- CTA Items -->
+      <div class="hidden md:flex space-x-4">
+        <div class="font-thin text-base">
+          Ready to airbnb it?
+        </div>
+        <a href="#" class="bg-airbRed2 px-6 py-2 rounded-md">
+          <div class="flex items-center text-airbBlanco text-lg">
+            <div class="text-airbBlanco mr-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-house-add text-lg" viewBox="0 0 16 16">
+                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h4a.5.5 0 1 0 0-1h-4a.5.5 0 0 1-.5-.5V7.207l5-5 6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 1 0 1 0v-1h1a.5.5 0 1 0 0-1h-1v-1a.5.5 0 0 0-.5-.5Z"/>
+              </svg>
+            </div>
+            Airbnb Setup
+          </div>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- mobile airbnb setup button -->
+  <nav class="fixed md:hidden translate-y-12 bottom-0 bg-airbVerde">
+    <!-- flex container -->
+    <div class="items-center p-6">
+      <!-- CTA Items -->
+      <div class="flex-col space-x-4">
+       
+      </div>
+    </div>
+  </nav>
+  <nav class="fixed md:hidden inset-x-0 bottom-0 bg-airbVerde">
+    <!-- flex container -->
+    <div class="items-center p-5">
+      <!-- CTA Items -->
+      <div class="font-thin text-black text-center translate-y-full z-0">
+        Ready to airbnb it?
+      </div>
+      <div class="flex-col space-x-4 z-10">
+        <a href="#" class="block bg-red-500 p-2 px-6 py-2 rounded-md w-full">
+          <div class="grid justify-items-center text-airbBlanco text-lg">
+            <div class="flex text-airbBlanco mr-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-house-add mr-2 text-lg" viewBox="0 0 16 16">
+                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h4a.5.5 0 1 0 0-1h-4a.5.5 0 0 1-.5-.5V7.207l5-5 6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 1 0 1 0v-1h1a.5.5 0 1 0 0-1h-1v-1a.5.5 0 0 0-.5-.5Z"/>
+              </svg>
+              Airbnb Setup
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </nav>
 </body>
 </html>
