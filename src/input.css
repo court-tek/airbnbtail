@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.trans {
+    transform: translate3d(0, 1400%, 0);
+}
+
+.trans--open {
+    transform: translate3d(0, -100%, 0);
+}
